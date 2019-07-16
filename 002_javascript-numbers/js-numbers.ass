@@ -10,24 +10,24 @@ PlayResX: 1280
 PlayResY: 720
 
 [Aegisub Project Garbage]
-Audio File: ../../../Downloads/Bartek Szopka- Everything you never wanted to know about JavaScript numbers -- JSConf EU 2013.mp4
-Video File: ../../../Downloads/Bartek Szopka- Everything you never wanted to know about JavaScript numbers -- JSConf EU 2013.mp4
+Audio File: ../../../../Downloads/Bartek Szopka- Everything you never wanted to know about JavaScript numbers -- JSConf EU 2013.mp4
+Video File: ../../../../Downloads/Bartek Szopka- Everything you never wanted to know about JavaScript numbers -- JSConf EU 2013.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.750000
-Scroll Position: 253
-Active Line: 288
+Video Zoom Percent: 1.000000
+Active Line: 1
+Video Position: 702
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Default,Arial Unicode MS,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,134
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,早上好 JSConf\Ngood morning JSConf
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,所以你们都知道我的名字了\Nso you already know my name
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,我从来没看过自己名字显示的这么大\NI've never seen it this big
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,可以帮我照个照片吗？\Ncan someone take a picture of it for me
+Dialogue: 0,0:00:26.53,0:00:28.04,Default,,0,0,0,,早上好 JSConf\Ngood morning JSConf
+Dialogue: 0,0:00:28.08,0:00:30.04,Default,,0,0,0,,所以你们都知道我的名字了\Nso you already know my name
+Dialogue: 0,0:00:30.04,0:00:32.04,Default,,0,0,0,,我从来没看过自己名字显示的这么大\NI've never seen it this big
+Dialogue: 0,0:00:32.04,0:00:35.58,Default,,0,0,0,,可以帮我照个照片吗？\Ncan someone take a picture of it for me
 Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,我会很感激的。好了\NI'll be grateful okay
 Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,今天我想跟大家分享一下我对Javascript数字问题的思考\Ntoday I'd like to share with you some of the questions I was asking myself about numbers in JavaScript
 Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,昨天Brendan Eich（JS的作者）在分享中告诉我们\Nbecause even Brendan Eich yesterday and his keynote
