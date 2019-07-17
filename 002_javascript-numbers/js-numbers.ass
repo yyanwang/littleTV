@@ -11,9 +11,13 @@ PlayResY: 720
 
 [Aegisub Project Garbage]
 Audio File: ../../../../Downloads/Bartek Szopka- Everything you never wanted to know about JavaScript numbers -- JSConf EU 2013.mp4
-Video Zoom Percent: 0.750000
-Scroll Position: 278
-Active Line: 288
+Video File: ../../../../Downloads/Bartek Szopka- Everything you never wanted to know about JavaScript numbers -- JSConf EU 2013.mp4
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 1.000000
+Scroll Position: 274
+Active Line: 279
+Video Position: 36714
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -29,7 +33,7 @@ Dialogue: 0,0:00:37.20,0:00:42.78,Default,,0,0,0,,今天我想跟大家分享一
 Dialogue: 0,0:00:43.00,0:00:46.48,Default,,0,0,0,,昨天Brendan Eich（JS的作者）在分享中告诉我们\Nbecause even Brendan Eich yesterday and his keynote
 Dialogue: 0,0:00:46.48,0:00:50.50,Default,,0,0,0,,Javascript中的数字并不完美\Ntold us that the numbers are not really perfect currently
 Dialogue: 0,0:00:50.50,0:00:55.12,Default,,0,0,0,,所以Javascript以后的版本中会引入新的数字类型\Nthat's why all these new types of numbers are being introduced for future versions
-Dialogue: 0,0:00:56.12,0:01:02.26,Default,,0,0,0,,但今天我想把注意力集中在现有的Javascript中数字的实现\Nbut today I like to focus on what currently we have in JavaScript in terms of numbers
+Dialogue: 0,0:00:56.12,0:01:02.26,Default,,0,0,0,,但今天我想把注意力集中在现有的Javascript中数字\Nbut today I like to focus on what currently we have in JavaScript in terms of numbers
 Dialogue: 0,0:01:02.26,0:01:08.68,Default,,0,0,0,,因为当你做十进制小数或者大数的运算时\Nbecause if you ever tried to do some computations on decimal fractions or large integers in JavaScript
 Dialogue: 0,0:01:08.68,0:01:12.44,Default,,0,0,0,,你可能会注意到结果并不精确\Nyou probably noticed that they are not really precise
 Dialogue: 0,0:01:12.44,0:01:15.28,Default,,0,0,0,,有时候结果甚至出人意料\Nand may lead to some quite unexpected results
@@ -37,35 +41,35 @@ Dialogue: 0,0:01:15.82,0:01:17.98,Default,,0,0,0,,我举几个例子\Nlet me giv
 Dialogue: 0,0:01:21.94,0:01:25.24,Default,,0,0,0,,如果我们计算0.1 + 0.2\Nif we try to add 0.1 to 0.2
 Dialogue: 0,0:01:25.82,0:01:28.52,Default,,0,0,0,,你可能认为结果是0.3\Nyou would expect it will be equal to 0.3
 Dialogue: 0,0:01:28.84,0:01:30.26,Default,,0,0,0,,实际上并不是\Nbut it's not
-Dialogue: 0,0:01:30.64,0:01:36.12,Default,,0,0,0,,不是0.3，而是非常接近0.3的一个数\Nwhat it's actually equal a number very close to 0.3
-Dialogue: 0,0:01:36.70,0:01:40.22,Default,,0,0,0,,另一方面，如果你拿一个非常大的数\Non the other hand if you take quite a large integer
-Dialogue: 0,0:01:42.68,0:01:47.64,Default,,0,0,0,,比如这个，在它的基础上加1\Nlike for example this one and you try to add one to it
+Dialogue: 0,0:01:30.64,0:01:36.12,Default,,0,0,0,,而是非常接近0.3的一个数\Nwhat it's actually equal to a number very close to 0.3
+Dialogue: 0,0:01:36.70,0:01:40.22,Default,,0,0,0,,另一方面，如果你用一个非常大的数\Non the other hand if you take quite a large integer
+Dialogue: 0,0:01:40.42,0:01:47.64,Default,,0,0,0,,比如这个，在它的基础上加1\Nlike for example this one and you try to add one to it
 Dialogue: 0,0:01:49.26,0:01:51.72,Default,,0,0,0,,结果还是原来的数字不变\Nyou will get exactly the same number
-Dialogue: 0,0:01:53.72,0:01:56.32,Default,,0,0,0,,但如果在它基础上加2，结果就对了\Nbut if you add 2 to it you get the result as expected
+Dialogue: 0,0:01:52.06,0:01:56.32,Default,,0,0,0,,但如果在它基础上加2，结果就对了\Nbut if you add 2 to it you get the result as expected
 Dialogue: 0,0:01:57.18,0:02:02.22,Default,,0,0,0,,但问题不仅仅是这些计算结果不精确\Nbut it's not only about inaccurate results of some computations
 Dialogue: 0,0:02:02.22,0:02:07.12,Default,,0,0,0,,Javascript中的数字还有其他怪异的地方\Nthere are many different weird things about the numbers in JavaScript
-Dialogue: 0,0:02:07.46,0:02:10.94,Default,,0,0,0,,像是有名的NaN\Nlike this infamous NaN value
+Dialogue: 0,0:02:07.46,0:02:10.94,Default,,0,0,0,,像是臭名昭彰的NaN\Nlike this infamous NaN value
 Dialogue: 0,0:02:13.12,0:02:21.70,Default,,0,0,0,,一般你做了非法的数字运算时，Javascript会返回NaN\Nso NaN is a value you will get if you try to turn in to a number something that is not a number
 Dialogue: 0,0:02:22.12,0:02:23.96,Default,,0,0,0,,所以我们来试试这个\Nso let's try something like this
-Dialogue: 0,0:02:24.62,0:02:27.72,Default,,0,0,0,,但是如果你 typeof NaN\Nbut if you try to check the type of NaN
-Dialogue: 0,0:02:30.96,0:02:32.72,Default,,0,0,0,,NaN的类型实际上是数字it will tell you it's a number
-Dialogue: 0,0:02:32.72,0:02:37.04,Default,,0,0,0,,所以每次我碰上这种问题\Nand every time I stumbled upon something like this happening
+Dialogue: 0,0:02:24.62,0:02:27.72,Default,,0,0,0,,但是如果你查看NaN的类型\Nbut if you try to check the type of NaN
+Dialogue: 0,0:02:30.96,0:02:32.72,Default,,0,0,0,,NaN的类型实际上是数字\Nit will tell you it's a number
+Dialogue: 0,0:02:32.72,0:02:37.04,Default,,0,0,0,,每次我碰上这种问题\Nand every time I stumbled upon something like this happening
 Dialogue: 0,0:02:37.04,0:02:39.80,Default,,0,0,0,,我就会问我自己为什么\NI was asking myself why does it happen
 Dialogue: 0,0:02:39.80,0:02:41.80,Default,,0,0,0,,因为背后肯定有原因的，对吧？\Nbecause there has to be a reason right?
-Dialogue: 0,0:02:42.06,0:02:46.52,Default,,0,0,0,,这种奇怪的行为不会无缘无故的发生，多数情况下\Nthings like that don't happen without the reason at least in most cases
+Dialogue: 0,0:02:42.06,0:02:46.52,Default,,0,0,0,,多数情况下这种奇怪的行为不会无缘无故的发生\Nthings like that don't happen without the reason at least in most cases
 Dialogue: 0,0:02:47.60,0:02:50.28,Default,,0,0,0,,当我们有和Javascript相关的问题时\Nand if you're asking yourself a question about JavaScript
 Dialogue: 0,0:02:50.28,0:02:52.74,Default,,0,0,0,,我们有一个确定的地方能找到答案\Nthere is one sure place to look for the answer
 Dialogue: 0,0:02:52.74,0:02:54.74,Default,,0,0,0,,ECMAscript规范\Nthe ECMA script standard
-Dialogue: 0,0:02:56.74,0:03:07.96,Default,,0,0,0,,但规范里只是说\Nbut all the standard says about the numbers is that
-Dialogue: 0,0:03:08.84,0:03:11.82,Default,,0,0,0,,Javascript数字使用双精度64位IEEE 754规范的浮点数表示法\Nthey are represented by the double precision 64-bit format IEEE 754 binary floating-point arithmetic
-Dialogue: 0,0:03:11.82,0:03:15.60,Default,,0,0,0,,事实上还有多一点解释\Nactually yeah it's just a little bit more than that
-Dialogue: 0,0:03:15.60,0:03:17.60,Default,,0,0,0,,但没有写Javascript中，数字在内存中是如何表示的\Nbut nothing about how the numbers are represented in the memory
-Dialogue: 0,0:03:18.12,0:03:28.12,Default,,0,0,0,,也没有解释计算是怎样完成的\Nhow the calculations are done
-Dialogue: 0,0:03:28.38,0:03:29.76,Default,,0,0,0,,所以我进一步调研，发现Javascript并不是第一个使用IEEE 754规范的\Nso I had to look the further but it turns out that javascript is not the first language that uses this standard
-Dialogue: 0,0:03:30.20,0:03:41.76,Default,,0,0,0,,有许多其他的语言也使用了这个规范\Nthere are many others
-Dialogue: 0,0:03:46.60,0:03:54.48,Default,,0,0,0,,如果你用Python，会得到一样的结果\Nif you try for example Python we have exactly the same problems in here
-Dialogue: 0,0:03:55.84,0:04:00.74,Default,,0,0,0,,更新一些的语言，比如Ruby，也是一样的结果\Nsomething more modern like Ruby nope
-Dialogue: 0,0:04:01.52,0:04:05.28,Default,,0,0,0,,当然，还有Java\Nand of course Java
+Dialogue: 0,0:02:56.74,0:02:59.50,Default,,0,0,0,,但规范里只是说\Nbut all the standard says about the numbers is that
+Dialogue: 0,0:02:59.62,0:03:08.16,Default,,0,0,0,,Javascript数字使用双精度64位IEEE 754规范的浮点数表示法\Nthey are represented by the double precision 64-bit format IEEE 754 binary floating-point arithmetic
+Dialogue: 0,0:03:08.36,0:03:11.72,Default,,0,0,0,,事实上还有多一点解释\Nactually yeah it's just a little bit more than that
+Dialogue: 0,0:03:11.78,0:03:15.46,Default,,0,0,0,,但没有写Javascript中，数字在内存中是如何表示的\Nbut nothing about how the numbers are represented in the memory
+Dialogue: 0,0:03:15.62,0:03:17.70,Default,,0,0,0,,也没有解释计算是怎样完成的\Nhow the calculations are done
+Dialogue: 0,0:03:18.12,0:03:28.06,Default,,0,0,0,,所以我进一步调研，发现Javascript并不是第一个使用IEEE 754规范的\Nso I had to look the further but it turns out that javascript is not the first language that uses this standard
+Dialogue: 0,0:03:28.34,0:03:29.68,Default,,0,0,0,,有许多其他的语言也使用了这个规范\Nthere are many others
+Dialogue: 0,0:03:30.24,0:03:41.68,Default,,0,0,0,,如果你用Python，会得到一样的结果\Nif you try for example Python we have exactly the same problems in here
+Dialogue: 0,0:03:46.58,0:03:54.26,Default,,0,0,0,,更新一些的语言，比如Ruby，也是一样的结果\Nsomething more modern like Ruby nope
+Dialogue: 0,0:03:55.92,0:04:00.76,Default,,0,0,0,,当然，还有Java\Nand of course Java
 Dialogue: 0,0:04:01.56,0:04:05.14,Default,,0,0,0,,事实上我还需要写一个类来完成这个计算\Nactually I had to read write a class to add these two numbers in Java
 Dialogue: 0,0:04:12.36,0:04:19.18,Default,,0,0,0,,事实上Javascript中数字的问题就是从Java中来的\Nanyway it turns out that we have these kind of numbers in JavaScript because they were in Java at the first place
 Dialogue: 0,0:04:22.00,0:04:24.38,Default,,0,0,0,,好，所以我问自己这些问题为什么存在\Nright so I was still asking myself why does it happen
@@ -73,16 +77,16 @@ Dialogue: 0,0:04:24.38,0:04:31.44,Default,,0,0,0,,我们对数字的表示出了
 Dialogue: 0,0:04:31.44,0:04:37.90,Default,,0,0,0,,第一步我想看到Javascript数字是如何用二进制来表示的\Nand the first step I wanted to make was to see how a given number looks like in this binary representation
 Dialogue: 0,0:04:37.90,0:04:42.38,Default,,0,0,0,,我想看到64位表示法中的每一位\NI wanted to see every single bit of this 64 bit representation
 Dialogue: 0,0:04:43.28,0:04:49.70,Default,,0,0,0,,不幸的是，我们无法简单获取到内存中的二进制位\Nunfortunately in JavaScript we don't really have easy direct access to bits in memory
-Dialogue: 0,0:04:50.38,0:04:53.84,Default,,0,0,0,,借助于我朋友**的帮忙but with a little help from my friends typed our eyes
+Dialogue: 0,0:04:50.38,0:04:53.84,Default,,0,0,0,,借助于一些工具\Nbut with a little help from my friends typed our eyes
 Dialogue: 0,0:04:54.56,0:04:59.46,Default,,0,0,0,,我自己写了个方法\NI was able to create myself a little utility function
 Dialogue: 0,0:05:08.56,0:05:12.92,Default,,0,0,0,,所以我们可以把任何数字，比如0.3\Nso now we can turn any number let's say our 0.3
 Dialogue: 0,0:05:13.94,0:05:17.22,Default,,0,0,0,,用二进制的来表示\Nand see how it looks in its binary representation
-Dialogue: 0,0:05:17.22,0:05:25.02,Default,,0,0,0,,这就是0.3用64位双精度浮点数的二进制表示法\Nso these are all 64 bits of binary representation of number 0.3 in this double precision floating point
+Dialogue: 0,0:05:17.22,0:05:25.02,Default,,0,0,0,,这就是0.3用64位双精度浮点数的二进制表示\Nso these are all 64 bits of binary representation of number 0.3 in this double precision floating point
 Dialogue: 0,0:05:25.64,0:05:31.18,Default,,0,0,0,,我们来比较下它和0.1加0.2的结果\Nso let's compare it to result of the computation of 0.1 plus 0.2
 Dialogue: 0,0:05:32.28,0:05:37.54,Default,,0,0,0,,几乎是一样的，但仔细看右边后三位\Nit's almost the same but if you look at the last three bits on the right side
 Dialogue: 0,0:05:37.54,0:05:40.68,Default,,0,0,0,,你会看到差异\Nyou will see that there is a little difference there
 Dialogue: 0,0:05:42.06,0:05:46.34,Default,,0,0,0,,我们可以拿任意一个数\Nand yeah we can take any number we want like I don't know
-Dialogue: 0,0:05:47.98,0:05:49.46,Default,,0,0,0,,比如20130109，看看是如何表示的\N2013 0 9 and see how it looks like
+Dialogue: 0,0:05:46.56,0:05:49.46,Default,,0,0,0,,比如2013.09，看看是如何表示的\N2013 0 9 and see how it looks like
 Dialogue: 0,0:05:49.46,0:05:55.14,Default,,0,0,0,,但只看这些0和1，我们无法理解\Nbut looking at these 0s and 1s doesn't really give us any kind of understanding
 Dialogue: 0,0:05:55.14,0:05:58.20,Default,,0,0,0,,发生了什么，数字是怎么计算的\Nwhat is going on there how these numbers are computed
 Dialogue: 0,0:06:00.38,0:06:04.44,Default,,0,0,0,,幸运的是，由于这个规范被很多语言采用\Nfortunately because this standard is used in many languages
@@ -107,73 +111,73 @@ Dialogue: 0,0:07:31.70,0:07:33.22,Default,,0,0,0,,另外一部分是小数部分
 Dialogue: 0,0:07:33.22,0:07:37.54,Default,,0,0,0,,这里我用一个圆点将它们分隔开来\Nand I use this point in here to show where this split happens
 Dialogue: 0,0:07:37.54,0:07:42.52,Default,,0,0,0,,圆点左边表示整数部分\Nso this bits on the left of this point are used to represent the integer part
 Dialogue: 0,0:07:43.08,0:07:44.52,Default,,0,0,0,,圆点右边表示小数部分\Nand the rest is for the fraction
-Dialogue: 0,0:07:46.38,0:07:53.64,Default,,0,0,0,,余下的11位是底数。 底数相当于一个乘数\Nand the remaining 11 bits is the exponent and the exponent is kind of a multiplier
+Dialogue: 0,0:07:46.38,0:07:53.64,Default,,0,0,0,,余下的11位是指数，它相当于一个乘数\Nand the remaining 11 bits is the exponent and the exponent is kind of a multiplier
 Dialogue: 0,0:07:53.92,0:08:00.18,Default,,0,0,0,,用来和有效数字相乘，最终结果就是我们的数值\Nthat is used to scale the value given by the significant to give us the final value of our number
 Dialogue: 0,0:08:00.70,0:08:08.34,Default,,0,0,0,,我知道这很难理解，所以让我来举个例子\Nand I'm pretty sure it's quite confusing at this point so let me give you a little bit of analogy
 Dialogue: 0,0:08:09.64,0:08:16.10,Default,,0,0,0,,我想你肯定见过数字写成这样的形式\NI hope that you've at least at some point of your life seen a number written like this
 Dialogue: 0,0:08:16.68,0:08:20.28,Default,,0,0,0,,这叫做科学计数法\Nit's so called exponential or scientific notation
 Dialogue: 0,0:08:20.86,0:08:25.54,Default,,0,0,0,,这种计数法里面我们把一个数字分为两部分\Nso in this notation we also have a number divided into two parts
 Dialogue: 0,0:08:26.00,0:08:31.64,Default,,0,0,0,,一部分是有效数字\Nthis is there is this part it represents the significant digits of our numbers
-Dialogue: 0,0:08:31.64,0:08:36.52,Default,,0,0,0,,数字中所有的数位，也叫做有效数字so all the digits we want to have in our number and it's also called significant
+Dialogue: 0,0:08:31.64,0:08:36.52,Default,,0,0,0,,数字中所有的数位，也叫做有效数字\Nso all the digits we want to have in our number and it's also called significant
 Dialogue: 0,0:08:37.30,0:08:42.58,Default,,0,0,0,,我们将这个数字乘以10的n次方，最终结果就是我们的数字\Nand we compute number by multiplying it times 10 to the power of the exponent
-Dialogue: 0,0:08:43.16,0:08:45.88,Default,,0,0,0,,所以说底数相当于一个伸展的因子\Nso the exponent is kind of a scaling factor
-Dialogue: 0,0:08:46.22,0:08:50.16,Default,,0,0,0,,底数越大我们的数值就越大\Nso the bigger the exponent gets the bigger our number will be
-Dialogue: 0,0:08:50.60,0:08:55.44,Default,,0,0,0,,底数越小，我们的数值也越小\Nand the smaller the exponent gets the smaller value of our number will have
-Dialogue: 0,0:08:56.52,0:09:02.86,Default,,0,0,0,,底数的大小影响圆点的位置\Nand we can look at this exponent as kind of defining the position of the point in our representation
-Dialogue: 0,0:09:03.36,0:09:08.68,Default,,0,0,0,,因为底数变大时圆点向右移\Nbecause when the exponent gets higher the point kind of moves to the right
+Dialogue: 0,0:08:43.16,0:08:45.88,Default,,0,0,0,,所以说指数相当于一个放大的因子\Nso the exponent is kind of a scaling factor
+Dialogue: 0,0:08:46.22,0:08:50.16,Default,,0,0,0,,指数越大我们的数值就越大\Nso the bigger the exponent gets the bigger our number will be
+Dialogue: 0,0:08:50.60,0:08:55.44,Default,,0,0,0,,指数越小，我们的数值也越小\Nand the smaller the exponent gets the smaller value of our number will have
+Dialogue: 0,0:08:56.52,0:09:02.86,Default,,0,0,0,,指数的大小影响小数点的位置\Nand we can look at this exponent as kind of defining the position of the point in our representation
+Dialogue: 0,0:09:03.36,0:09:08.68,Default,,0,0,0,,因为指数变大时，小数点向右移\Nbecause when the exponent gets higher the point kind of moves to the right
 Dialogue: 0,0:09:09.02,0:09:10.68,Default,,0,0,0,,数字也就越大\Nand makes this number bigger
-Dialogue: 0,0:09:11.64,0:09:15.36,Default,,0,0,0,,底数变小，圆点向左移\Nand when the exponent gets smaller it kind of moves the point to the left
+Dialogue: 0,0:09:11.64,0:09:15.36,Default,,0,0,0,,指数变小，小数点向左移\Nand when the exponent gets smaller it kind of moves the point to the left
 Dialogue: 0,0:09:15.90,0:09:17.82,Default,,0,0,0,,数字也就越小\Nmaking the numbers smaller and smaller
 Dialogue: 0,0:09:18.52,0:09:26.82,Default,,0,0,0,,二进制表示法中的有效数字和指数部分和科学计数法中相同的\Nand actually the roles of significant and exponent in this binary notation for the floating point numbers are exactly the same
 Dialogue: 0,0:09:27.58,0:09:31.24,Default,,0,0,0,,所以我们倒回去仔细研究一下它是如何工作的\Nso let's get back to it and see how it works and more details
 Dialogue: 0,0:09:33.34,0:09:36.76,Default,,0,0,0,,符号位就不用多说了\Nso the sign bit there is not much to say about this guy
-Dialogue: 0,0:09:37.28,0:09:40.74,Default,,0,0,0,,i如果符号位是0，说明是正数\Nf its value is zero the number is positive
+Dialogue: 0,0:09:37.28,0:09:40.74,Default,,0,0,0,,如果符号位是0，说明是正数\Nf its value is zero the number is positive
 Dialogue: 0,0:09:40.98,0:09:43.30,Default,,0,0,0,,因为计算的是-1的0次方\Nbecause it's counted as the power of minus one
 Dialogue: 0,0:09:43.84,0:09:45.30,Default,,0,0,0,,如果符号位置为1\Nand if we turn it to one
 Dialogue: 0,0:09:45.52,0:09:48.62,Default,,0,0,0,,就变成负数了，很简单\Nour number becomes negative simple as that
 Dialogue: 0,0:09:49.18,0:09:52.24,Default,,0,0,0,,指数部分比较有意思\Nexponent is a little bit more interesting
-Dialogue: 0,0:09:53.06,0:09:55.82,Default,,0,0,0,,我们有11位来表示指数部分\Nso we have eleven bits to represent the exponent
-Dialogue: 0,0:09:56.14,0:10:02.16,Default,,0,0,0,,指数幂是一个整数，所以可以表示0到2047之间的数\Nand the exponent that is an integer value so we can represent the number from 0 to 2047
-Dialogue: 0,0:10:02.82,0:10:08.34,Default,,0,0,0,,但是因为我们想让指数幂可以是正值或者负值\Nbut we would actually want exponent to have negative and positive values
+Dialogue: 0,0:09:53.06,0:09:55.82,Default,,0,0,0,,我们有11位来表示指数\Nso we have eleven bits to represent the exponent
+Dialogue: 0,0:09:56.14,0:10:02.16,Default,,0,0,0,,指数是一个整数，所以可以表示0到2047之间的数\Nand the exponent that is an integer value so we can represent the number from 0 to 2047
+Dialogue: 0,0:10:02.82,0:10:08.34,Default,,0,0,0,,但是因为我们想让指数可以是正值或者负值\Nbut we would actually want exponent to have negative and positive values
 Dialogue: 0,0:10:08.52,0:10:12.76,Default,,0,0,0,,所以这里实际上使用的是移码表示法\Nso what is actually used in so called offset binary notation
-Dialogue: 0,0:10:13.40,0:10:16.68,Default,,0,0,0,,我们计算和2的指数幂乘积\Nso we take the number computed from the powers of two
-Dialogue: 0,0:10:16.68,0:10:22.40,Default,,0,0,0,,得到指数幂，然后减去1023\Nof the from the bits of exponent this one and we subtract 1023 from it
-Dialogue: 0,0:10:22.82,0:10:25.12,Default,,0,0,0,,正好是取值范围\Nit's exactly the house of the range
-Dialogue: 0,0:10:25.12,0:10:34.16,Default,,0,0,0,,所以当指数幂为1023时\Nso when our value computed from the exponent bits gets exactly to this point of 1023
-Dialogue: 0,0:10:34.16,0:10:36.50,Default,,0,0,0,,指数幂为0\Nour exponent will be 0
-Dialogue: 0,0:10:36.96,0:10:40.16,Default,,0,0,0,,当它的值变小，指数幂就是负值\Nand when it gets lower, the exponent will be negative
-Dialogue: 0,0:10:40.16,0:10:42.82,Default,,0,0,0,,当它的值变大，指数幂就是正值\Nwhen it's higher the exponent will be positive
-Dialogue: 0,0:10:43.84,0:10:46.82,Default,,0,0,0,,这个数，指数幂的值\Nand this number, the value for the exponent
+Dialogue: 0,0:10:13.40,0:10:16.68,Default,,0,0,0,,我们计算出指数部分的值\Nso we take the number computed from the powers of two
+Dialogue: 0,0:10:16.68,0:10:22.40,Default,,0,0,0,,然后减去1023\Nof the from the bits of exponent this one and we subtract 1023 from it
+Dialogue: 0,0:10:22.82,0:10:25.12,Default,,0,0,0,,正好是取值范围的一半\Nit's exactly the half of the range
+Dialogue: 0,0:10:25.12,0:10:34.16,Default,,0,0,0,,所以当指数部分表示为1023时\Nso when our value computed from the exponent bits gets exactly to this point of 1023
+Dialogue: 0,0:10:34.16,0:10:36.50,Default,,0,0,0,,实际使用的指数为0\Nour exponent will be 0
+Dialogue: 0,0:10:36.96,0:10:40.16,Default,,0,0,0,,当它的值变小，指数就是负值\Nand when it gets lower, the exponent will be negative
+Dialogue: 0,0:10:40.16,0:10:42.82,Default,,0,0,0,,当它的值变大，指数就是正值\Nwhen it's higher the exponent will be positive
+Dialogue: 0,0:10:43.84,0:10:46.82,Default,,0,0,0,,这个数，指数的值\Nand this number, the value for the exponent
 Dialogue: 0,0:10:46.92,0:10:51.38,Default,,0,0,0,,实际上定义有效数字部分小数点的位置\Nis actually defining the position of this point in the significant
 Dialogue: 0,0:10:52.56,0:10:59.42,Default,,0,0,0,,它决定了多少位是整数部分，多少位是小数部分\Nso it defines how many bits we have for the integer part of the number and how many are left for the fraction part
-Dialogue: 0,0:11:00.30,0:11:07.30,Default,,0,0,0,,指数幂越大，整数部分的数位越多，数值越大\Nso the bigger our exponent gets the more bits we have for the integer part and the bigger our integer value gets
-Dialogue: 0,0:11:07.60,0:11:15.84,Default,,0,0,0,, 指数幂越小，小数点向左移，整数部分的数位变少\Nthe smaller exponent is the point will move to the left making/giving us less bits for the integer part
+Dialogue: 0,0:11:00.30,0:11:07.30,Default,,0,0,0,,指数越大，整数部分的数位越多，数值越大\Nso the bigger our exponent gets the more bits we have for the integer part and the bigger our integer value gets
+Dialogue: 0,0:11:07.60,0:11:15.84,Default,,0,0,0,, 指数越小，小数点向左移，整数部分的数位变少\Nthe smaller exponent is the point will move to the left making/giving us less bits for the integer part
 Dialogue: 0,0:11:16.02,0:11:19.36,Default,,0,0,0,,这就是为什么叫做“浮点”数\Nand actually that's why it's called the floating point
-Dialogue: 0,0:11:19.66,0:11:24.46,Default,,0,0,0,,因为小数点的位置是变化的，取决于指数幂的值\Nbecause the position of the point is depends on the value of the exponent
+Dialogue: 0,0:11:19.66,0:11:24.46,Default,,0,0,0,,因为小数点的位置是变化的，取决于指数的值\Nbecause the position of the point is depends on the value of the exponent
 Dialogue: 0,0:11:26.16,0:11:29.44,Default,,0,0,0,,现在来看看最重要的部分\Nso now let's have a look at the most important part
 Dialogue: 0,0:11:29.44,0:11:30.26,Default,,0,0,0,,有效数字\Nthe significant
 Dialogue: 0,0:11:32.26,0:11:35.98,Default,,0,0,0,,之前说过了，有效数字有52位\Nas I told you already we have 52 bits
 Dialogue: 0,0:11:36.28,0:11:41.50,Default,,0,0,0,,这些红色的数字，第一位是隐藏的\Nthese are these red ones and here this first guy is this hidden bit
-Dialogue: 0,0:11:42.32,0:11:43.76,Default,,0,0,0,,我们将它放在这儿\Nwe can save him here yeah 
+Dialogue: 0,0:11:42.32,0:11:43.76,Default,,0,0,0,,我们将它放在这儿\Nwe can save him here yeah
 Dialogue: 0,0:11:46.26,0:11:49.46,Default,,0,0,0,,我们能够看到它的值，但是无法改变它的值\Nand we can see him because we don't actually control its value
 Dialogue: 0,0:11:49.96,0:11:52.14,Default,,0,0,0,,它的值永远是1\Nits value is always assumed to be one
 Dialogue: 0,0:11:52.88,0:11:56.34,Default,,0,0,0,,所以我们不把它算作64位的一部分\Nso that's why we don't have to put them into 64 bits
-Dialogue: 0,0:11:56.34,0:11:57.86,Default,,0,0,0,,因为我们不能把它的值变成1\Nbecause we can't change it to 0
+Dialogue: 0,0:11:56.34,0:11:57.86,Default,,0,0,0,,因为我们不能把它的值变成0\Nbecause we can't change it to 0
 Dialogue: 0,0:12:00.34,0:12:06.50,Default,,0,0,0,,为了解释有效数字部分是如何工作的，先来点简单的，比如1\Nso to explain you how this significant works let's start with something simple like number 1
-Dialogue: 0,0:12:07.70,0:12:10.52,Default,,0,0,0,,对于数字1来说，指数幂部分为0\Nso for number one our exponent is zero
+Dialogue: 0,0:12:07.70,0:12:10.52,Default,,0,0,0,,对于数字1来说，指数部分为0\Nso for number one our exponent is zero
 Dialogue: 0,0:12:11.10,0:12:17.30,Default,,0,0,0,,所以小数点的位置在这里，它的左边有1位\Nso it puts our point in here so we have one bit on the left hand side
 Dialogue: 0,0:12:17.46,0:12:19.92,Default,,0,0,0,,这一位表示的是整数部分\Nthis one bit representing our integer part
 Dialogue: 0,0:12:20.08,0:12:22.30,Default,,0,0,0,,表示2的0次幂\Nand it represents two to the power of zero
 Dialogue: 0,0:12:22.78,0:12:28.46,Default,,0,0,0,,等于1，因为现在仅有一位表示整数，所以无法表示更大的数\Nso it's 1 but we have only one bit for the integer we can't represent any bigger number
 Dialogue: 0,0:12:28.46,0:12:30.96,Default,,0,0,0,,如果我们想表示数字2\Nso if we try to represent the number 2
-Dialogue: 0,0:12:31.60,0:12:35.30,Default,,0,0,0,,我们需要将小数点向右移动，通过改变指数幂\Nwe have to move the point to the right by changing the exponent
+Dialogue: 0,0:12:31.60,0:12:35.30,Default,,0,0,0,,我们需要将小数点向右移动，通过改变指数\Nwe have to move the point to the right by changing the exponent
 Dialogue: 0,0:12:35.72,0:12:38.14,Default,,0,0,0,,现在呢我们整数部分有两位了\Nso now we have two bits for the integer part
 Dialogue: 0,0:12:38.44,0:12:42.98,Default,,0,0,0,,第一位表示2的1次幂\Nthis first bit is representing 2 to the power of 1 at this point
 Dialogue: 0,0:12:42.98,0:12:44.38,Default,,0,0,0,,等于2\Nso it gives us 2
 Dialogue: 0,0:12:44.58,0:12:48.12,Default,,0,0,0,,另一个表示2的0次幂\Nand the other one is representing 2 to the power of 0
 Dialogue: 0,0:12:48.36,0:12:55.36,Default,,0,0,0,,于是我们得到了数字3， 但是同样，我们的整数部分只有两位\Nso we can represent also number 3 but again we just used our 2 bits in the integer part
-Dialogue: 0,0:12:55.56,0:13:01.66,Default,,0,0,0,,为了表示数字4，我们需要再一次将小数点向右移，通过改变指数幂\Nso to represent number 4 we have to again move the point to the right by changing the exponent
-Dialogue: 0,0:13:02.08,0:13:04.90,Default,,0,0,0,,所以现在我们得到了——抱歉\Nso now we have oops sorry yeah 
+Dialogue: 0,0:12:55.56,0:13:01.66,Default,,0,0,0,,为了表示数字4，我们需要再一次将小数点向右移，通过改变指数\Nso to represent number 4 we have to again move the point to the right by changing the exponent
+Dialogue: 0,0:13:02.08,0:13:04.90,Default,,0,0,0,,所以现在我们得到了——抱歉\Nso now we have oops sorry yeah
 Dialogue: 0,0:13:17.72,0:13:20.52,Default,,0,0,0,,我记得刚才是4\Nso I was at 4 I guess
 Dialogue: 0,0:13:21.30,0:13:25.46,Default,,0,0,0,,于是现在我们整数部分有3位了\Nso now we have three bits for the integer part
 Dialogue: 0,0:13:25.70,0:13:27.80,Default,,0,0,0,,第一个表示2的2次幂\Nthe first one represents two to the power of two
@@ -200,21 +204,21 @@ Dialogue: 0,0:15:11.22,0:15:16.34,Default,,0,0,0,,第一个原因 我们是通�
 Dialogue: 0,0:15:16.84,0:15:22.14,Default,,0,0,0,,另一个原因是我们的有效数字位只有有限的52位\Nand the other factor is that we actually have quite limited 52 bits of significant
 Dialogue: 0,0:15:22.14,0:15:25.08,Default,,0,0,0,,我们表示不了更小的数\Nwe can't represent the smaller values
 Dialogue: 0,0:15:26.24,0:15:28.28,Default,,0,0,0,,更重要的是\Nwhat is even more important is that
-Dialogue: 0,0:15:29.24,0:15:33.58,Default,,0,0,0,,大整数的值\Nthe bigger number we get in terms of the integer value
-Dialogue: 0,0:15:33.70,0:15:36.74,Default,,0,0,0,,当我们在整数部分需要更多的数位时\Nso when we need more and more bits for the integer part
+Dialogue: 0,0:15:29.24,0:15:33.58,Default,,0,0,0,,整数部分值越大\Nthe bigger number we get in terms of the integer value
+Dialogue: 0,0:15:33.70,0:15:36.74,Default,,0,0,0,,我们在整数部分就需要更多的数位\Nso when we need more and more bits for the integer part
 Dialogue: 0,0:15:36.88,0:15:39.30,Default,,0,0,0,,小数部分可以使用的数位就越少\Nthe less bits we have left for the fraction part
 Dialogue: 0,0:15:40.06,0:15:44.44,Default,,0,0,0,,所以当我们将小数点移到最右侧时\Nso when we move the point right to the end of this representation
 Dialogue: 0,0:15:45.80,0:15:50.16,Default,,0,0,0,,我们来看看对于这么大的数字\Nlet's see to this point for such a large integer value
-Dialogue: 0,0:15:50.16,0:15:55.48,Default,,0,0,0,,我们只有一位留给小数部分所以我们只能表示\Nwe have only one bit left for the fraction part so we can only represent the house
-Dialogue: 0,0:15:55.60,0:15:58.74,Default,,0,0,0,,对于这么大的数来说，我们表示不了小数部分\Nwe can't represent any other fraction for such a large numbers
+Dialogue: 0,0:15:50.16,0:15:55.48,Default,,0,0,0,,我们只有一位留给小数部分,所以我们只能表示0.5\Nwe have only one bit left for the fraction part so we can only represent the half
+Dialogue: 0,0:15:55.60,0:15:58.74,Default,,0,0,0,,对于这么大的数来说，我们表示不了其他的小数\Nwe can't represent any other fraction for such a large numbers
 Dialogue: 0,0:16:00.22,0:16:05.30,Default,,0,0,0,,如果我们再将小数点右移，会发生什么呢？\Nso what happens if we move the point even more to the right
-Dialogue: 0,0:16:05.64,0:16:07.94,Default,,0,0,0,,如果幂指数等于52\Nif the exponent is equal to 52
+Dialogue: 0,0:16:05.64,0:16:07.94,Default,,0,0,0,,如果指数等于52\Nif the exponent is equal to 52
 Dialogue: 0,0:16:08.18,0:16:11.76,Default,,0,0,0,,有效数字部分所有的位都来表示整数部分\Nwe have all the bits of the significant used for the integer value
 Dialogue: 0,0:16:11.98,0:16:14.18,Default,,0,0,0,,小数部分没有数位可用了\Nthere is no bit left for the fraction part
 Dialogue: 0,0:16:14.58,0:16:18.52,Default,,0,0,0,,所以只能表示整数\Nso from this point we can only represent integers value
 Dialogue: 0,0:16:22.52,0:16:27.30,Default,,0,0,0,,有效数字能表示的最大的整数\Nso the biggest integer value that actually fits into this significant
 Dialogue: 0,0:16:28.00,0:16:34.00,Default,,0,0,0,,就是这个数字，我们用了有效数字的所有数位来表示这个数\Nis this one we've used all the bits in the significant part to represent this number
-Dialogue: 0,0:16:34.34,0:16:38.48,Default,,0,0,0,,那如果我们想表示更大的数呢？now what would happen if we try to represent the bigger number
+Dialogue: 0,0:16:34.34,0:16:38.48,Default,,0,0,0,,那如果我们想表示更大的数呢？\Nnow what would happen if we try to represent the bigger number
 Dialogue: 0,0:16:38.48,0:16:41.24,Default,,0,0,0,,我们看看，改一下这里\Nlet's see let's change that
 Dialogue: 0,0:16:42.26,0:16:44.28,Default,,0,0,0,,和我们预想的一样\Nwhat happens is kind of what we expected
 Dialogue: 0,0:16:44.28,0:16:46.08,Default,,0,0,0,,我们将小数点右移\Nwe moved the point to the right
@@ -229,21 +233,21 @@ Dialogue: 0,0:17:19.28,0:17:23.40,Default,,0,0,0,,我们无法进行加1操作�
 Dialogue: 0,0:17:23.70,0:17:26.16,Default,,0,0,0,,我们控制不了最后一位的值，它永远是0\Nbecause we don't control it it's it's always zero
 Dialogue: 0,0:17:26.42,0:17:29.72,Default,,0,0,0,,我们能控制的最后一位是这个\Nso the last bit we actually control is this one
 Dialogue: 0,0:17:29.72,0:17:34.88,Default,,0,0,0,,它代表2的1次幂，所以我们只能对这个数字加2\Nand it represents two to the power of one so we can only add 2 to this number
-Dialogue: 0,0:17:35.48,0:17:39.96,Default,,0,0,0,,所以当指数幂等于53时\Nso from this point when the exponent is equal to 53
-Dialogue: 0,0:17:39.96,0:17:46.30,Default,,0,0,0,,我们只能表示每两个数直到这里\Nwe can only represent every second integer until we get to this point
+Dialogue: 0,0:17:35.48,0:17:39.96,Default,,0,0,0,,所以当指数等于53时\Nso from this point when the exponent is equal to 53
+Dialogue: 0,0:17:39.96,0:17:46.30,Default,,0,0,0,,我们只能表示间隔2的数，直到这里\Nwe can only represent every second integer until we get to this point
 Dialogue: 0,0:17:47.72,0:17:54.54,Default,,0,0,0,,为了表示更大的数我们需要再一次加2\Nand again to represent the bigger number we again have to add 2 to it
 Dialogue: 0,0:17:55.04,0:17:57.62,Default,,0,0,0,,我们将小数点右移\Nwe will move point to the right
 Dialogue: 0,0:17:57.82,0:18:02.10,Default,,0,0,0,,现在我们有两个数位只能是0\Nso right now we have 2 bits that are assumed to be 0
 Dialogue: 0,0:18:02.50,0:18:08.12,Default,,0,0,0,,我们能够控制的最后一位代表2的2次幂\Nso the last value the last bit of our control is representing 2 to the power of 2
 Dialogue: 0,0:18:08.12,0:18:09.00,Default,,0,0,0,,是4\Nso it's 4
-Dialogue: 0,0:18:09.58,0:18:15.16,Default,,0,0,0,,所以当指数幂等于54时，我们只能每4个数表示一个\Nso we can represent only every 4th integer for exponent equal to 54
-Dialogue: 0,0:18:15.86,0:18:23.98,Default,,0,0,0,,指数幂越大，我们能表示整数之间的差值就越大\Nso the bigger the exponent gets the bigger gaps we will have between the integers values we can represent
-Dialogue: 0,0:18:24.06,0:18:29.72,Default,,0,0,0,,所以从指数幂等于52开始\Nso actually starting from this exponent 52
+Dialogue: 0,0:18:09.58,0:18:15.16,Default,,0,0,0,,所以当指数等于54时，我们只能表示间隔为4的数\Nso we can represent only every 4th integer for exponent equal to 54
+Dialogue: 0,0:18:15.86,0:18:23.98,Default,,0,0,0,,指数越大，我们能表示整数之间的间隔就越大\Nso the bigger the exponent gets the bigger gaps we will have between the integers values we can represent
+Dialogue: 0,0:18:24.06,0:18:29.72,Default,,0,0,0,,所以从指数等于52开始\Nso actually starting from this exponent 52
 Dialogue: 0,0:18:30.52,0:18:32.70,Default,,0,0,0,,我们不能表示连续的整数了\Nwe already have gaps between the numbers
 Dialogue: 0,0:18:32.70,0:18:37.38,Default,,0,0,0,,所以说对于这么大的数任何计算都会发生错误\Nso actually any operations on on such a large integers will have some error
 Dialogue: 0,0:18:38.28,0:18:42.48,Default,,0,0,0,,同样这种错误在小数里也会发生\Nand similar thing happens on the other side of the significant
 Dialogue: 0,0:18:42.48,0:18:46.88,Default,,0,0,0,,我们让数字变小，也许不要这么小……\Nif we make it smaller maybe not that small
-Dialogue: 0,0:18:51.00,0:18:53.76,Default,,0,0,0,,让指数幂等于-1\Nwhen we have the exponent value of -1
+Dialogue: 0,0:18:51.00,0:18:53.76,Default,,0,0,0,,让指数等于-1\Nwhen we have the exponent value of -1
 Dialogue: 0,0:18:53.76,0:18:57.48,Default,,0,0,0,,这时小数点就是隐藏位后面\Nso our point is right before the hidden bit
 Dialogue: 0,0:18:57.76,0:19:00.44,Default,,0,0,0,,隐藏位表示1/2\Nthis hidden bit represents 1/2
 Dialogue: 0,0:19:00.72,0:19:04.80,Default,,0,0,0,,有效数字的其他数位表示越来越小的2的-n次幂\Nand every other bit in the significant represents smaller and smaller powers of 2
@@ -257,50 +261,50 @@ Dialogue: 0,0:19:34.78,0:19:39.16,Default,,0,0,0,,值可能非常小，但是有
 Dialogue: 0,0:19:39.84,0:19:43.82,Default,,0,0,0,,所以我们永远不能表示0\Nso we will never be able to represent number 0
 Dialogue: 0,0:19:43.82,0:19:47.96,Default,,0,0,0,,因为这一位永远表示某个值\Nbecause we'll always have some value given by this bit
 Dialogue: 0,0:19:48.84,0:19:52.58,Default,,0,0,0,,所幸这种表示法有个例外\Nfortunately this representation has an exception for that
-Dialogue: 0,0:19:53.60,0:19:57.36,Default,,0,0,0,,当指数幂是最小值\Nso when our exponent gets his lowest possible value
-Dialogue: 0,0:19:57.36,0:20:00.60,Default,,0,0,0,,指数幂部分所有数位都为0\Nso when the all bits of the exponent are 0
-Dialogue: 0,0:20:01.62,0:20:07.04,Default,,0,0,0,,我们的指数幂是-1023，隐藏位也是0\Nso our exponent is minus 1023 the hidden bits also turns to 0
+Dialogue: 0,0:19:53.60,0:19:57.36,Default,,0,0,0,,当指数是最小值\Nso when our exponent gets his lowest possible value
+Dialogue: 0,0:19:57.36,0:20:00.60,Default,,0,0,0,,指数部分所有数位都为0\Nso when the all bits of the exponent are 0
+Dialogue: 0,0:20:01.62,0:20:07.04,Default,,0,0,0,,我们的指数是-1023，隐藏位也是0\Nso our exponent is minus 1023 the hidden bits also turns to 0
 Dialogue: 0,0:20:07.96,0:20:14.38,Default,,0,0,0,,这样我们能表示0了，所有的数位都是0\Nso this way we can represent zero as all the bits being 0
 Dialogue: 0,0:20:15.22,0:20:22.90,Default,,0,0,0,,当然我们可以改变有效数字的数位来表示一个非常接近0的数\Nand we can of course change some bits in significant to represent numbers very close to 0
 Dialogue: 0,0:20:23.58,0:20:30.08,Default,,0,0,0,,这些叫做“非常规数” 因为隐藏位是0\Nthey are called sub normal values because of this hidden bit being 0
 Dialogue: 0,0:20:33.42,0:20:36.68,Default,,0,0,0,,但你可能还记得这个家伙\Nbut you may remember this sign guy in here
 Dialogue: 0,0:20:37.04,0:20:43.86,Default,,0,0,0,,我说过这是符号位，可以改变数值的正负\Nand I told you that we can use it to change the sign of any number represented in this representation
-Dialogue: 0,0:20:43.86,0:20:47.22,Default,,0,0,0,,把符号位变成0会发生什么呢？\Nso what would happen if we change the sign of 0
+Dialogue: 0,0:20:43.86,0:20:47.22,Default,,0,0,0,,把符号位从0变成1会发生什么呢？\Nso what would happen if we change the sign of 0
 Dialogue: 0,0:20:48.44,0:20:50.42,Default,,0,0,0,,我们得到了-0\Nyeah we will get minus 0
 Dialogue: 0,0:20:51.02,0:20:54.70,Default,,0,0,0,,事实上浮点数表示法定义了两个0\Nactually the floating point representation defines two 0s
 Dialogue: 0,0:20:54.88,0:20:56.44,Default,,0,0,0,,+0和-0\Npositive and negative one
 Dialogue: 0,0:20:57.12,0:21:02.38,Default,,0,0,0,,Javascript中，-0并不常见\Nin JavaScript it's not very easy to notice this negative zero
 Dialogue: 0,0:21:02.48,0:21:08.36,Default,,0,0,0,,只有一些特殊操作，比如除以负无穷大，才会得到-0\Nbecause there are only certain operations that return it like dividing by minus infinity
 Dialogue: 0,0:21:08.84,0:21:18.32,Default,,0,0,0,,但-0确实存在，并且和+0在表示上是有区别的\Nbut it's there and the difference between negative 0 and positive 0 can be actually detected
-Dialogue: 0,0:21:19.96,0:21:28.56,Default,,0,0,0,,所以我们见过当指数幂是最小值情况了\Nso we've seen what happens when the exponent is again when the exponent is at its lowest value
+Dialogue: 0,0:21:19.96,0:21:28.56,Default,,0,0,0,,所以我们见过当指数是最小值情况了\Nso we've seen what happens when the exponent is again when the exponent is at its lowest value
 Dialogue: 0,0:21:28.78,0:21:32.18,Default,,0,0,0,,现在我们看另一种极端的情况\Nso now let's see the other side of the extreme
 Dialogue: 0,0:21:36.22,0:21:41.88,Default,,0,0,0,,所有的数位都为1，让指数值取最大值\Nwhen we have all the bits of the exponent set to 1 for the highest exponent value
 Dialogue: 0,0:21:42.50,0:21:49.28,Default,,0,0,0,,这是为正无穷和负无穷的保留值\Nthis is the value reserved for the Infinity positive or negative infinity
 Dialogue: 0,0:21:50.36,0:21:52.68,Default,,0,0,0,,所以无穷大就是长这样\Nso that's how the Infinity looks like
-Dialogue: 0,0:21:53.06,0:21:57.88,Default,,0,0,0,,指数幂部分都为1，有效数字部分都为0\Nall the exponent bits set to 1 and all the significant bits set to 0
-Dialogue: 0,0:21:58.12,0:22:03.72,Default,,0,0,0,,当改变有效数字部分会发生什么呢？and what will happen if we try to change this significant bits to 1
+Dialogue: 0,0:21:53.06,0:21:57.88,Default,,0,0,0,,指数部分都为1，有效数字部分都为0\Nall the exponent bits set to 1 and all the significant bits set to 0
+Dialogue: 0,0:21:58.12,0:22:03.72,Default,,0,0,0,,当改变有效数字部分会发生什么呢？\Nand what will happen if we try to change this significant bits to 1
 Dialogue: 0,0:22:04.72,0:22:09.36,Default,,0,0,0,,我们得到了NaN，但并不是因为出现了错误\NBang! we get a NaN and it's not because there is some error
 Dialogue: 0,0:22:10.28,0:22:15.02,Default,,0,0,0,,浮点数表示法定义了NaN\Nactually floating point representation defines NaN value
-Dialogue: 0,0:22:15.34,0:22:24.24,Default,,0,0,0,,所以当指数幂部分都为1时，有效数字的任意位不能为1，否则就是NaN\Nso if all the exponent bits are set to 1 and any bit in the significant is set to 1 it's NaN value
-Dialogue: 0,0:22:24.80,0:22:29.02,Default,,0,0,0,,这解释了为什么typeof NaN结果是number\Nso it kind of explains why NaN type is a number
-Dialogue: 0,0:22:29.40,0:22:36.30,Default,,0,0,0,,因为NaN的值使用浮点数表示法来定义的\Nbecause NaN is a value defined by the floating point representation
+Dialogue: 0,0:22:15.34,0:22:24.24,Default,,0,0,0,,所以当指数部分都为1时，有效数字的任意位不能为1，否则就是NaN\Nso if all the exponent bits are set to 1 and any bit in the significant is set to 1 it's NaN value
+Dialogue: 0,0:22:24.80,0:22:30.88,Default,,0,0,0,,这解释了为什么NaN的类型是number\Nso it kind of explains why NaN type is a number
+Dialogue: 0,0:22:31.24,0:22:36.20,Default,,0,0,0,,因为NaN的值使用浮点数表示法来定义的\Nbecause NaN is a value defined by the floating point representation
 Dialogue: 0,0:22:36.30,0:22:40.18,Default,,0,0,0,,和数字一样，也是64位\Nit's defined by 64 bits like any other number
-Dialogue: 0,0:22:41.54,0:22:49.28,Default,,0,0,0,,由于有52位的有效数字位所以NaN实际上有很多不同的值\Nactually this we have 52 bits in significance so there are quite many NaN values defined in this representation
+Dialogue: 0,0:22:41.54,0:22:49.28,Default,,0,0,0,,由于有52位的有效数字位，所以NaN实际上有很多不同的值\Nactually this we have 52 bits in significance so there are quite many NaN values defined in this representation
 Dialogue: 0,0:22:49.62,0:22:54.04,Default,,0,0,0,,还好Javascript把它简化为一个NaN\Nfortunately to us JavaScript simplifies it to only one NaN
 Dialogue: 0,0:22:59.24,0:23:06.58,Default,,0,0,0,,好，我们现在回顾一下刚才所讲的\Nyeah but let's get maybe back to numbers and summarize it what we already heard here
 Dialogue: 0,0:23:08.48,0:23:14.00,Default,,0,0,0,,对于任意数字\Nso for any given number we can compute its value
-Dialogue: 0,0:23:14.12,0:23:23.88,Default,,0,0,0,,我们都可以通过有效数字，小数点位置和幂指数来计算它的值\Nby computing the values of the significant bits with the position of the point based on the value from the exponent
+Dialogue: 0,0:23:14.12,0:23:23.88,Default,,0,0,0,,我们都可以通过有效数字，小数点位置和指数来计算它的值\Nby computing the values of the significant bits with the position of the point based on the value from the exponent
 Dialogue: 0,0:23:24.02,0:23:27.72,Default,,0,0,0,,数字的符号位决定正负\Nand design defining a design of our number
-Dialogue: 0,0:23:28.00,0:23:33.48,Default,,0,0,0,,正如一开始所说的，我们可以把幂指数当作放大器\Nbut as I told you at the very beginning we can treat the exponent as kind of a multiplier
-Dialogue: 0,0:23:34.06,0:23:40.04,Default,,0,0,0,,如果我们把它拿出来当作放大器\Nso if we take it out of this parenthesis and treat it as a multiplier
+Dialogue: 0,0:23:28.00,0:23:33.48,Default,,0,0,0,,正如一开始所说的，我们可以把指数当作乘数\Nbut as I told you at the very beginning we can treat the exponent as kind of a multiplier
+Dialogue: 0,0:23:34.06,0:23:40.04,Default,,0,0,0,,如果我们把它拿出来当作乘数\Nso if we take it out of this parenthesis and treat it as a multiplier
 Dialogue: 0,0:23:40.26,0:23:45.90,Default,,0,0,0,,我们将它与有效数字相乘，从2的0次幂开始\Nwe start to compute the significant value always starting with 2 to the power of 0
 Dialogue: 0,0:23:46.20,0:23:48.60,Default,,0,0,0,,是隐藏位的值\Nit's the value given by this hidden bit
 Dialogue: 0,0:23:53.68,0:23:59.74,Default,,0,0,0,,我们总可以把它置为1，因为2的0次幂是1\Nso we can always set it to 1 because you know 2 to the power of 0 is 1
 Dialogue: 0,0:23:59.84,0:24:02.00,Default,,0,0,0,,这是由隐藏位决定的\Nso that's the one given by the hidden bit
-Dialogue: 0,0:24:03.84,0:24:07.16,Default,,0,0,0,,这里我们得出了幂指数的值\Nand here we have the value computed for the exponent
+Dialogue: 0,0:24:03.84,0:24:07.16,Default,,0,0,0,,这里我们得出了指数的值\Nand here we have the value computed for the exponent
 Dialogue: 0,0:24:07.54,0:24:18.38,Default,,0,0,0,,通过这种方式我们反向工程化了这个公式，这个双精度浮点数计算的公式\Nand this way we kind of reverse engineered the equation for how the numbers are computed in double floating-point representation
 Dialogue: 0,0:24:18.38,0:24:26.56,Default,,0,0,0,,这和我们在Wikipedia中看到的公式类似\Nand that's the equation you can find in similar fashion on this Wikipedia page
-Dialogue: 0,0:24:28.56,0:24:34.20,Default,,0,0,0,,我理解在狂欢之后的周日早上这是一个硬核的话题\Nso I know it was quite a hardcore topic for a Sunday morning after the great party
+Dialogue: 0,0:24:28.56,0:24:34.20,Default,,0,0,0,,我理解对于狂欢之后的周日早上，这是一个硬核的话题\Nso I know it was quite a hardcore topic for a Sunday morning after the great party
 Dialogue: 0,0:24:34.54,0:24:43.58,Default,,0,0,0,,但是我希望你对javascript数字多了一些了解\Nbut I hope that I have given you at least a little bit of understanding how numbers in JavaScript work
 Dialogue: 0,0:24:43.72,0:24:46.38,Default,,0,0,0,,Javascript中的数字为什么会存在一些问题\Nand why we have all these problems we've done
 Dialogue: 0,0:24:46.90,0:24:53.22,Default,,0,0,0,,并且以后我们可以自认为明白二进制\Nand hopefully after this talk we can all think about ourselves as those who understand binary
