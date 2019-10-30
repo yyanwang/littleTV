@@ -12,8 +12,8 @@ PlayResY: 1080
 [Aegisub Project Garbage]
 Audio File: y2mate.com - kent_c_dodds_simply_react_AiJ8tRRH0f8_1080p.mp4
 Video Zoom Percent: 0.500000
-Scroll Position: 36
-Active Line: 48
+Scroll Position: 251
+Active Line: 267
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -72,51 +72,51 @@ Dialogue: 0,0:03:52.95,0:03:55.47,Default,but I have a different use case,0,0,0,
 Dialogue: 0,0:03:55.47,0:04:01.70,Default,but I have a different use case,0,0,0,,我可以加一个条件判断在这儿，让内容在上面展开\Nwe'll just have consumed conditional logic here and to render the contents above
 Dialogue: 0,0:04:01.87,0:04:06.70,Default,but I have a different use case,0,0,0,,再加一个条件判断来改变图标小手指的方向\NI have some conditional logic for the hand that direction that it's pointing
 Dialogue: 0,0:04:06.70,0:04:12.67,Default,but I have a different use case,0,0,0,,而用户需要做的只是加一个above=true，很简单对吗\Nand all it's going to take is for you to add above equals true, so easy right
-Dialogue: 0,0:04:12.67,0:04:18.17,Default,but I have a different use case,0,0,0,,and if you want to be super terse and you don't care about JSX of version 2 then you can just say above all by itself
-Dialogue: 0,0:04:18.17,0:04:20.90,Default,but I have a different use case,0,0,0,,and you don't need the equals true how easy could it be
-Dialogue: 0,0:04:21.32,0:04:25.95,Default,but I have a different use case,0,0,0,,and so you're feeling pretty good about this like you've built something people are starting to use it
-Dialogue: 0,0:04:25.95,0:04:31.62,Default,but I have a different use case,0,0,0,,and then somebody says hey I saw how you changed it so it could support above and below
-Dialogue: 0,0:04:31.62,0:04:38.22,Default,but I have a different use case,0,0,0,,I want it to support the contents on the right tabs on the left is that is that a cool thing, can we do that
-Dialogue: 0,0:04:38.22,0:04:43.05,Default,but I have a different use case,0,0,0,,and you say yeah sure we can do that just right=true and now we just have some conditional logic
-Dialogue: 0,0:04:43.05,0:04:47.42,Default,but I have a different use case,0,0,0,,we have to rewrite it a little bit because it was flexbox before and now we're going to do CSS grid
-Dialogue: 0,0:04:47.42,0:04:53.27,Default,but I have a different use case,0,0,0,,grid autoflow column and now like magic it's so easy Thank You CSS grid for making that easy to do
-Dialogue: 0,0:04:54.10,0:04:59.70,Default,but I have a different use case,0,0,0,,and you're starting to get a little uncomfortable because this render method is getting bigger
-Dialogue: 0,0:04:59.70,0:05:03.40,Default,but I have a different use case,0,0,0,,and I have some conditional logic as you're adding these features
-Dialogue: 0,0:05:03.40,0:05:09.12,Default,but I have a different use case,0,0,0,,you have to add some tests to feel comfortable with with things and of course you're using react testing library
-Dialogue: 0,0:05:09.12,0:05:12.97,Default,but I have a different use case,0,0,0,,but even with that you're starting to make you feel a little uncomfortable
-Dialogue: 0,0:05:12.97,0:05:17.65,Default,but I have a different use case,0,0,0,,and of course somebody comes to you and says “hey I noticed you could do right can I also do left?”
-Dialogue: 0,0:05:17.65,0:05:21.62,Default,but I have a different use case,0,0,0,,and you say yeah sure just left is true and and life is good
-Dialogue: 0,0:05:21.62,0:05:27.97,Default,but I have a different use case,0,0,0,,and then David Kay course she'd yes David Khursheed Kay piano man
-Dialogue: 0,0:05:27.97,0:05:36.82,Default,but I have a different use case,0,0,0,,he reminds you that hey this this is like impossible states we got left is true what if I did right is true as well what happens now?
-Dialogue: 0,0:05:36.82,0:05:40.92,Default,but I have a different use case,0,0,0,,and so you refactor it while you rewrite it and everybody's happy about this
-Dialogue: 0,0:05:40.92,0:05:44.50,Default,but I have a different use case,0,0,0,,you change position equals left so now you got an enum so every everything's good
-Dialogue: 0,0:05:44.50,0:05:50.72,Default,but I have a different use case,0,0,0,,so there's a little lesson use enums don't don't make pot impossible states possible
-Dialogue: 0,0:05:51.32,0:05:54.27,Default,but I have a different use case,0,0,0,,so now everybody's happy with that they're they're feeling pretty good
-Dialogue: 0,0:05:55.25,0:06:01.10,Default,but I have a different use case,0,0,0,,so the next thing that happens is somebody comes to you and you're feeling pretty uncomfortable about this render method
-Dialogue: 0,0:06:01.10,0:06:03.42,Default,but I have a different use case,0,0,0,, it's getting pretty big and somebody comes to you in years
-Dialogue: 0,0:06:03.42,0:06:06.07,Default,but I have a different use case,0,0,0,,the first thing that they say is like hey that's really cool
-Dialogue: 0,0:06:06.07,0:06:08.57,Default,but I have a different use case,0,0,0,,and you're like wait what stop do you want me to change it?
-Dialogue: 0,0:06:08.57,0:06:12.87,Default,but I have a different use case,0,0,0,,and they say yeah yeah and you're like okay okay what is it
-Dialogue: 0,0:06:12.87,0:06:18.57,Default,but I have a different use case,0,0,0,,and they say well, the way that it renders is fine and you're like oh good okay so wait what do you want me to change?
-Dialogue: 0,0:06:18.57,0:06:23.10,Default,but I have a different use case,0,0,0,,well the logic with how I can open all of these at once?
-Dialogue: 0,0:06:23.60,0:06:27.37,Default,but I have a different use case,0,0,0,,I actually only want to be able to open one at a time, is that something you can do
-Dialogue: 0,0:06:27.37,0:06:32.20,Default,but I have a different use case,0,0,0,, and you say yeah I guess so like I leave my render method as it is I don't need to touch that
-Dialogue: 0,0:06:32.20,0:06:37.25,Default,but I have a different use case,0,0,0,,I just need to touch like or deal with the code that's handling the click here and so
-Dialogue: 0,0:06:37.25,0:06:41.70,Default,but I have a different use case,0,0,0,,you say okay just a little if statement to make that possible
-Dialogue: 0,0:06:41.70,0:06:45.30,Default,but I have a different use case,0,0,0,,and now we can only open one at a time that wasn't that wasn't all that bad
-Dialogue: 0,0:06:45.30,0:06:49.00,Default,but I have a different use case,0,0,0,,now we have the single true and that's that's fine no big deal
-Dialogue: 0,0:06:49.00,0:06:53.72,Default,but I have a different use case,0,0,0,,and somebody comes to you again and says hey I noticed we can actually change the state
-Dialogue: 0,0:06:53.72,0:06:59.07,Default,but I have a different use case,0,0,0,,I've had this like bug for a long time people shouldn't be able to close all the items
-Dialogue: 0,0:06:59.07,0:07:04.37,Default,but I have a different use case,0,0,0,,I need to like they can open as many as they want but they can only close down to one
-Dialogue: 0,0:07:04.37,0:07:09.50,Default,but I have a different use case,0,0,0,,so only one or one has to be open at all times so you say okay yeah I can make that happen
-Dialogue: 0,0:07:09.50,0:07:13.60,Default,but I have a different use case,0,0,0,,I click here it doesn't actually close can only close down to one at a time
-Dialogue: 0,0:07:14.22,0:07:17.52,Default,but I have a different use case,0,0,0,,and that's prevent close it's true okay yeah
-Dialogue: 0,0:07:17.52,0:07:21.30,Default,but I have a different use case,0,0,0,,so now you have a bunch of conditional logic in your render method
-Dialogue: 0,0:07:21.30,0:07:23.80,Default,but I have a different use case,0,0,0,,you've got some conditional logic in your click Handler
-Dialogue: 0,0:07:23.80,0:07:26.77,Default,but I have a different use case,0,0,0,,it's not too bad but you're starting to feel a little uncomfortable about this
-Dialogue: 0,0:07:26.77,0:07:33.25,Default,but I have a different use case,0,0,0,,and then somebody comes to you and says hey you know how like that single wanted open at a time
-Dialogue: 0,0:07:33.25,0:07:41.15,Default,but I have a different use case,0,0,0,,can I combine that with opening only one eye so I can only open one at a time but I can't closd it
-Dialogue: 0,0:07:41.15,0:07:46.67,Default,but I have a different use case,0,0,0,,is that is that possible and you say yeah that's that's possible we can make that work
+Dialogue: 0,0:04:12.67,0:04:18.17,Default,but I have a different use case,0,0,0,,如果你想尽量简洁，你可以不管JSX v2的规范，你可以直接写above就可以了\Nand if you want to be super terse and you don't care about JSX of version 2 then you can just say above all by itself
+Dialogue: 0,0:04:18.17,0:04:20.90,Default,but I have a different use case,0,0,0,,而不用写above={true}，还能更简单嘛\Nand you don't need the equals true how easy could it be
+Dialogue: 0,0:04:21.32,0:04:25.95,Default,but I have a different use case,0,0,0,,然后你自我感觉良好，你开发了以个组件，并且开始有人使用它了\Nand so you're feeling pretty good about this like you've built something people are starting to use it
+Dialogue: 0,0:04:25.95,0:04:31.62,Default,but I have a different use case,0,0,0,,然后有个人过来说：嘿，我看到你的改动了，现在可以支持向上展开和向下展开\Nand then somebody says hey I saw how you changed it so it could support above and below
+Dialogue: 0,0:04:31.62,0:04:38.22,Default,but I have a different use case,0,0,0,,但我需要向右展开，你觉得可以吗？能做吗？\NI want it to support the contents on the right tabs on the left is that is that a cool thing, can we do that
+Dialogue: 0,0:04:38.22,0:04:43.05,Default,but I have a different use case,0,0,0,,你说，可以，当然了。只要加上right=true，和条件判断\Nand you say yeah sure we can do that just right=true and now we just have some conditional logic
+Dialogue: 0,0:04:43.05,0:04:47.42,Default,but I have a different use case,0,0,0,,我们需要重写一点样式，之前我们用flexbox，我们打算用css grid\Nwe have to rewrite it a little bit because it was flexbox before and now we're going to do CSS grid
+Dialogue: 0,0:04:47.42,0:04:53.27,Default,but I have a different use case,0,0,0,,css grid autoflow column就可以了。这样就实现了，太神奇了。谢谢你css grid把一切变得这么简单\Ngrid autoflow column and now like magic it's so easy Thank You CSS grid for making that easy to do
+Dialogue: 0,0:04:54.10,0:04:59.70,Default,but I have a different use case,0,0,0,,你开始感到有些不自在，因为render方法变复杂了\Nand you're starting to get a little uncomfortable because this render method is getting bigger
+Dialogue: 0,0:04:59.70,0:05:03.40,Default,but I have a different use case,0,0,0,,并且添加功能的过程中加了一些条件判断\Nand I have some conditional logic as you're adding these features
+Dialogue: 0,0:05:03.40,0:05:09.12,Default,but I have a different use case,0,0,0,,为了让自己感觉好些，你加了一些测试。当然你用的是react testing library\Nyou have to add some tests to feel comfortable with with things and of course you're using react testing library
+Dialogue: 0,0:05:09.12,0:05:12.97,Default,but I have a different use case,0,0,0,,但即使这样，你还是感觉有点不舒服\Nbut even with that you're starting to make you feel a little uncomfortable
+Dialogue: 0,0:05:12.97,0:05:17.65,Default,but I have a different use case,0,0,0,,同样的情况又发生了，有人过来说， 嘿，我看到你支持向右展开了，能支持向左展开吗？\Nand of course somebody comes to you and says “hey I noticed you could do right can I also do left?”
+Dialogue: 0,0:05:17.65,0:05:21.62,Default,but I have a different use case,0,0,0,,你说，可以的，left=true， 问题解决了\Nand you say yeah sure just left is true and and life is good
+Dialogue: 0,0:05:21.62,0:05:27.97,Default,but I have a different use case,0,0,0,,David Kay，弹钢琴的人教导我们\Nand then David Kay course she'd yes David Khursheed Kay piano man
+Dialogue: 0,0:05:27.97,0:05:36.82,Default,but I have a different use case,0,0,0,,他说如果right和left同时为true的话会怎么样呢？\Nhe reminds you that hey this this is like impossible states we got left is true what if I did right is true as well what happens now?
+Dialogue: 0,0:05:36.82,0:05:40.92,Default,but I have a different use case,0,0,0,,于是你重构了一下，每个人都很开心\Nand so you refactor it while you rewrite it and everybody's happy about this
+Dialogue: 0,0:05:40.92,0:05:44.50,Default,but I have a different use case,0,0,0,,你把条件变成了position=left，你提供了一个position的枚举列表，一切都很美好\Nyou change position equals left so now you got an enum so every everything's good
+Dialogue: 0,0:05:44.50,0:05:50.72,Default,but I have a different use case,0,0,0,,这里有个小经验，使用枚举列表来解决冲突状态的问题\Nso there's a little lesson use enums don't don't make pot impossible states possible
+Dialogue: 0,0:05:51.32,0:05:54.27,Default,but I have a different use case,0,0,0,,现在大家都很高兴，感觉很棒\Nso now everybody's happy with that they're they're feeling pretty good
+Dialogue: 0,0:05:55.25,0:06:01.10,Default,but I have a different use case,0,0,0,,接下来，又有个人过来找你，而你已经不太满意目前的render方法了\Nso the next thing that happens is somebody comes to you and you're feeling pretty uncomfortable about this render method
+Dialogue: 0,0:06:01.10,0:06:03.42,Default,but I have a different use case,0,0,0,,render方法越来越大，然后有人过来\Nit's getting pretty big and somebody comes to you in years
+Dialogue: 0,0:06:03.42,0:06:06.07,Default,but I have a different use case,0,0,0,,他先说：嘿，你的组件很酷\Nthe first thing that they say is like hey that's really cool
+Dialogue: 0,0:06:06.07,0:06:08.57,Default,but I have a different use case,0,0,0,,你说，停，你是让我改什么吗？\Nand you're like wait what stop do you want me to change it?
+Dialogue: 0,0:06:08.57,0:06:12.87,Default,but I have a different use case,0,0,0,,他们说，是的。你问：改什么？\Nand they say yeah yeah and you're like okay okay what is it
+Dialogue: 0,0:06:12.87,0:06:18.57,Default,but I have a different use case,0,0,0,,他们说，render方法没问题。你松了口气然后问，那需要改什么？\Nand they say well, the way that it renders is fine and you're like oh good okay so wait what do you want me to change?
+Dialogue: 0,0:06:18.57,0:06:23.10,Default,but I have a different use case,0,0,0,,他们说，可以一次只展开一条吗？\Nwell the logic with how I can open all of these at once?
+Dialogue: 0,0:06:23.60,0:06:27.37,Default,but I have a different use case,0,0,0,,我想让用户每次只展开一条，你能做到吗？\NI actually only want to be able to open one at a time, is that something you can do
+Dialogue: 0,0:06:27.37,0:06:32.20,Default,but I have a different use case,0,0,0,,你说：应该可以吧，我不动render方法\Nand you say yeah I guess so like I leave my render method as it is I don't need to touch that
+Dialogue: 0,0:06:32.20,0:06:37.25,Default,but I have a different use case,0,0,0,,我只需要改click事件的回调方法\NI just need to touch like or deal with the code that's handling the click here and so
+Dialogue: 0,0:06:37.25,0:06:41.70,Default,but I have a different use case,0,0,0,,好的，在这里加一个if语句就可以了\Nyou say okay just a little if statement to make that possible
+Dialogue: 0,0:06:41.70,0:06:45.30,Default,but I have a different use case,0,0,0,,现在我们可以每次只展开一条了，还不赖\Nand now we can only open one at a time that wasn't that wasn't all that bad
+Dialogue: 0,0:06:45.30,0:06:49.00,Default,but I have a different use case,0,0,0,,在组件上加上single=true，可以，没什么大不了的\Nnow we have the single true and that's that's fine no big deal
+Dialogue: 0,0:06:49.00,0:06:53.72,Default,but I have a different use case,0,0,0,,之后又有人过来说，嘿，我注意到可以修改组件的状态\Nand somebody comes to you again and says hey I noticed we can actually change the state
+Dialogue: 0,0:06:53.72,0:06:59.07,Default,but I have a different use case,0,0,0,,我这有个存在很久的bug，我们不允许用户关上所有的条目\NI've had this like bug for a long time people shouldn't be able to close all the items
+Dialogue: 0,0:06:59.07,0:07:04.37,Default,but I have a different use case,0,0,0,,我希望的效果是，用户可以展开任意多的条目，但是关闭只能剩一个\NI need to like they can open as many as they want but they can only close down to one
+Dialogue: 0,0:07:04.37,0:07:09.50,Default,but I have a different use case,0,0,0,,也就是每次至少有一条是展开的。你说好吧，能做到\Nso only one or one has to be open at all times so you say okay yeah I can make that happen
+Dialogue: 0,0:07:09.50,0:07:13.60,Default,but I have a different use case,0,0,0,,click的回调函数这里，关闭条目时至少留一条是展开的\NI click here it doesn't actually close can only close down to one at a time
+Dialogue: 0,0:07:14.22,0:07:17.52,Default,but I have a different use case,0,0,0,,这就避免关闭了，好了\Nand that's prevent close it's true okay yeah
+Dialogue: 0,0:07:17.52,0:07:21.30,Default,but I have a different use case,0,0,0,,于是你的render方法里有一些条件判断\Nso now you have a bunch of conditional logic in your render method
+Dialogue: 0,0:07:21.30,0:07:23.80,Default,but I have a different use case,0,0,0,,你在click回调函数里也有一些条件判断\Nyou've got some conditional logic in your click Handler
+Dialogue: 0,0:07:23.80,0:07:26.77,Default,but I have a different use case,0,0,0,,还不是太糟，但你开始觉得不舒服了\Nit's not too bad but you're starting to feel a little uncomfortable about this
+Dialogue: 0,0:07:26.77,0:07:33.25,Default,but I have a different use case,0,0,0,,然后又有人过来说， 嘿，我想把一次展开所有条目和只能关剩一个结合起来用\Nand then somebody comes to you and says hey you know how like that single wanted open at a time
+Dialogue: 0,0:07:33.25,0:07:41.15,Default,but I have a different use case,0,0,0,,可以吗？我可以一次展开所有但是不能关闭吗？\Ncan I combine that with opening only one eye so I can only open one at a time but I can't closd it
+Dialogue: 0,0:07:41.15,0:07:46.67,Default,but I have a different use case,0,0,0,,能实现吗？你说，可以的能实现\Nis that is that possible and you say yeah that's that's possible we can make that work
 Dialogue: 0,0:07:46.67,0:07:52.85,Default,but I have a different use case,0,0,0,,so I can't close this and I can only open one at a time you just use both of the prompts and so you're so happy
 Dialogue: 0,0:07:53.15,0:07:56.75,Default,but I have a different use case,0,0,0,,because just naturally out of nowhere that actually it's supported
 Dialogue: 0,0:07:56.75,0:08:02.45,Default,but I have a different use case,0,0,0,,and so you're like oh sweet I don't have to change anything ever again because it supports all the use cases in the world
@@ -290,15 +290,15 @@ Dialogue: 0,0:23:51.65,0:23:57.47,Default,but I have a different use case,0,0,0,
 Dialogue: 0,0:23:57.62,0:24:06.05,Default,,0,0,0,,that's when you start looking into okay how can we make this more flexible so we can support not only the new use case but a lot of other use cases that are coming out
 Dialogue: 0,0:24:06.90,0:24:11.20,Default,but I have a different use case,0,0,0,,you ain't gonna need it you should be optimizing for delete ability
 Dialogue: 0,0:24:11.62,0:24:15.87,Default,but I have a different use case,0,0,0,,because everything eventually will be erased from existence
-Dialogue: 0,0:24:18.70,0:24:23.42,Default,but I have a different use case,0,0,0,,in other words listen to Michael smart smart dude
-Dialogue: 0,0:24:24.15,0:24:28.70,Default,but I have a different use case,0,0,0,,they're so my challenge to you is to use patterns that simplify your API
-Dialogue: 0,0:24:28.70,0:24:33.45,Default,but I have a different use case,0,0,0,,we talked about some of these state reducers, control props, the provider pattern
-Dialogue: 0,0:24:33.45,0:24:37.50,Default,,0,0,0,,which I'm so glad is built-in to react now with the context
-Dialogue: 0,0:24:37.80,0:24:40.15,Default,but I have a different use case,0,0,0,,compound components, render props,
-Dialogue: 0,0:24:40.15,0:24:45.65,Default,but I have a different use case,0,0,0,,the cool thing about software is that we're constantly rediscovering
-Dialogue: 0,0:24:45.65,0:24:52.70,Default,but I have a different use case,0,0,0,,old principles that they knew like in the 60s and 70s and applying them to today's problems
-Dialogue: 0,0:24:53.07,0:24:59.17,Default,but I have a different use case,0,0,0,,and that's all lots of these things our inversion of control is not a new concept like we didn't invent that
-Dialogue: 0,0:24:59.55,0:25:03.95,Default,but I have a different use case,0,0,0,,we just applied that to react and that's what's really exciting to me
-Dialogue: 0,0:25:04.12,0:25:10.55,Default,but I have a different use case,0,0,0,,so I would love to in years time give this talk again and be able to put a lot more patterns on this slide
-Dialogue: 0,0:25:10.55,0:25:13.90,Default,but I have a different use case,0,0,0,,so my challenge to you is to go rediscover more patterns
+Dialogue: 0,0:24:18.70,0:24:23.42,Default,but I have a different use case,0,0,0,,换句话说，听Michael的，他是个非常聪明的家伙\Nin other words listen to Michael smart smart dude
+Dialogue: 0,0:24:24.15,0:24:28.70,Default,but I have a different use case,0,0,0,,我给你们的挑战是，应用这些模式来简化你的API\Nthey're so my challenge to you is to use patterns that simplify your API
+Dialogue: 0,0:24:28.70,0:24:33.45,Default,but I have a different use case,0,0,0,,我们讲到了state reducer, 受控属性，供应者模式\Nwe talked about some of these state reducers, control props, the provider pattern
+Dialogue: 0,0:24:33.45,0:24:37.50,Default,,0,0,0,,非常高兴react内置了对context的支持（useContext）\Nwhich I'm so glad is built-in to react now with the context
+Dialogue: 0,0:24:37.80,0:24:40.15,Default,but I have a different use case,0,0,0,,复合组件模式，渲染属性模式\Ncompound components, render props,
+Dialogue: 0,0:24:40.15,0:24:45.65,Default,but I have a different use case,0,0,0,,很酷的是，我们不断的重新发现\Nthe cool thing about software is that we're constantly rediscovering
+Dialogue: 0,0:24:45.65,0:24:52.70,Default,but I have a different use case,0,0,0,,重新发现一些老原则，像是很多60 70年代我们已经知道的模式，用来解决当前遇到的问题\Nold principles that they knew like in the 60s and 70s and applying them to today's problems
+Dialogue: 0,0:24:53.07,0:24:59.17,Default,but I have a different use case,0,0,0,,有很多类似的模式。像控制反转，并不是新的发明\Nand that's all lots of these things our inversion of control is not a new concept like we didn't invent that
+Dialogue: 0,0:24:59.55,0:25:03.95,Default,but I have a different use case,0,0,0,,我们只是将控制反转应用到react组件开发上，这对我来说很兴奋的事情\Nwe just applied that to react and that's what's really exciting to me
+Dialogue: 0,0:25:04.12,0:25:10.55,Default,but I have a different use case,0,0,0,,我希望过一段事件我再做这个演讲时，幻灯片上会加上更多的模式\Nso I would love to in years time give this talk again and be able to put a lot more patterns on this slide
+Dialogue: 0,0:25:10.55,0:25:13.90,Default,but I have a different use case,0,0,0,,我给你们的挑战是，重新发现更多的模式\Nso my challenge to you is to go rediscover more patterns
 Dialogue: 0,0:25:14.27,0:25:15.72,Default,but I have a different use case,0,0,0,,我的演讲结束了，谢谢大家\Nthat's all for me. thank you!
